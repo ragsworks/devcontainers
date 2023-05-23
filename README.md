@@ -1,6 +1,6 @@
 <h1 align="center">
 
-<img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/ragsworks-196.svg" alt="Ragdata" />
+<img height="196" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/ragsworks-196.png" alt="Ragdata" />
 
 [Ragdata's DevContainers v-1.0.0](https://github.com/ragworks/devcontainers/releases/tag/v-1.0.0)
 
