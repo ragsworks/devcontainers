@@ -6,9 +6,9 @@
 
 </h1>
 
-<h3 align="center"><em>
-Reusable devcontainers - DevOps As You Like It!
-</em></h3>
+<h3 align="center">
+DevContainers On-Demand!<br /><br />
+<em>I'm beating my head against this brick wall so that YOU don't have to!</em></h3>
 
 <h3 align="center">
 
