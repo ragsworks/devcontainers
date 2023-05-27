@@ -7,17 +7,18 @@
 </h1>
 
 <h3 align="center">
-DevContainers On-Demand!<br /><br />
-<em>I'm beating my head against this brick wall so that YOU don't have to!</em></h3>
-
-<h3 align="center">
 
 <a href="https://github.com/ragsworks/devcontainers/issues">Issues</a>
 🔸
 <a href="https://ragsworks.github.io/devcontainers">Documentation</a>
 🔸
 <a href="https://github.com/ragsworks/devcontainers/releases">Releases</a>
+
 </h3>
+
+<h3 align="center">
+DevContainers On-Demand!<br /><br />
+<em>I'm beating my head against this brick wall so that YOU don't have to!</em></h3>
 
 <div align="center">
 
