@@ -16,9 +16,11 @@
 
 </h3>
 
+<br />
+
 <h3 align="center">
-DevContainers On-Demand!<br /><br />
-<em>I'm beating my head against this brick wall so that YOU don't have to!</em></h3>
+DevContainer Images!<br /><br />
+<em>In the Official DevContainers Specification</em></h3>
 
 <div align="center">
 
@@ -50,6 +52,7 @@ If you like this repo, please give it a ⭐ (it really does help)
 	- [Branch Reliability](#branch-reliability)
 - [What's Included?](#-whats-included)
 - [Installation](#-installation)
+  - [Prerequisites](#prerequisites)
 - [Available Support](#-available-support)
 - [Badges](#-badges)
 - [Project Supporters](#-project-supporters)
@@ -64,11 +67,9 @@ If you like this repo, please give it a ⭐ (it really does help)
 
 ## ⭐ [Project Overview](#-table-of-contents)
 
-> The DevContainers in this repository confirm to the <a href="https://containers.dev/" target="_blank">Official Development Containers Specification</a> (see them on <a href="https://github.com/devcontainers" target="_blank">GitHub</a>)
+> The DevContainers in this repository confirm to the <a href="https://containers.dev/" target="_blank">Official Development Containers Specification</a> (see <a href="https://github.com/devcontainers" target="_blank">GitHub</a>)
 
-Rather than fork or clone this repo, you should try to follow the installation instructions below in order to build your OWN version of `DevContainers`.
 
-(If you completely stuff it up, then sure, go ahead and fork me ... fork me hard ...)
 
 ### [Branch Reliability](#toc)
 
@@ -85,7 +86,18 @@ If you're contributing code to the project, you'll want 🔴
 
 [`^ Top`](#toc)
 
-## 📂 [Installation](#-table-of-contents)
+## ❓ [What's Included?](#toc)
+
+- ✅ [DevContainer Images](src)
+- ✅ [DevContainer Image Tests](test)
+
+[`^ Top`](#toc)
+
+## 📂 [Installation](#toc)
+
+Clone a copy of this repo, and follow the instructions below:
+
+### [Prerequisites](#-installation)
 
 The very first thing you need to do, is install `nvm` - I'm going to assume you're using Windows 11 WSL2 for this:
 
@@ -106,13 +118,19 @@ And finally, install `devcontainers`:
 npm install -g @devcontainers/cli
 ```
 
-[`^ Top`](#-table-of-contents)
-
-[//]: # (## 📛 [Badges]&#40;#-table-of-contents&#41;)
+### [Using Images](#toc)
 
 
+
+[`^ Top`](#toc)
 
 ## 💪 [Available Support](#toc)
+
+### 3rd Party Resources
+
+- ✅ [Official DevContainers Spec](https://containers.dev)
+  - ✅ [devcontainers.json Reference](https://containers.dev/implementors/json_reference/)
+- ✅ [Jetpack.io](https://www.jetpack.io/)
 
 ### Project Resources
 
@@ -124,10 +142,10 @@ npm install -g @devcontainers/cli
 - [**The RedEyed Community Discord Server**](https://discord.gg/54PkrM7TKq)
 
 
-- [**Community Support Document**](https://github.com/ragsworks/.github/blob/master/.github/SUPPORT.md)
-- [**Community Standards**](https://github.com/ragsworks/devcontainers/community)
-- [**Community Code of Conduct**](https://github.com/ragsworks/.github/blob/main/.github/CODE_OF_CONDUCT.md)
-- [**Security Policy**](https://github.com/ragsworks/devcontainers/security/policy)
+- [Community Support Document](https://github.com/ragsworks/.github/blob/master/.github/SUPPORT.md)
+- [Community Code of Conduct](https://github.com/ragsworks/.github/blob/master/.github/CODE_OF_CONDUCT.md)
+- [Community Standards](https://github.com/ragsworks/devcontainers/community)
+- [Security Policy](https://github.com/ragsworks/devcontainers/security/policy)
 	- [Security Overview](https://github.com/ragsworks/devcontainers/security)
 	- [Security Advisories](https://github.com/ragsworks/devcontainers/security/advisories)
 	- [Dependabot Alerts](https://github.com/ragsworks/devcontainers/security/dependabot)
@@ -183,13 +201,13 @@ npm install -g @devcontainers/cli
 
 [`^ Top`](#toc)
 
-## 🔐 [Security](#-table-of-contents)
+## 🔐 [Security](#toc)
 
-While the `Bash Bits` project follows good security practices, 100% security can never be guaranteed in any software package.  The `Bash Bits Logger Module` is provided AS IS, and without warranty.  You can find more details in the [LICENSE](LICENSE) file included with this repository.
+While the `RagsWorks` project follows good security practices, 100% security can never be guaranteed in any software package.  The `RagsWorks DevContainers` are provided AS IS, and without warranty.  You can find more details in the [LICENSE](LICENSE) file included with this repository.
 
 If you discover any issue regarding the security of this project, please disclose that information responsibly by sending a [security advisory][advisory].  **PLEASE DO NOT CREATE AN ISSUE OR DISCUSSION TOPIC.**  You can read more about this project's security policies [HERE][security]
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
 ## 💎 [Contributors](#toc)
 
@@ -205,18 +223,33 @@ It's not just contributions of code that I'm looking for.  If you have any ideas
 
 [`^ Top`](#toc)
 
-## ©️ [Copyright & Attributions](#-table-of-contents)
+## ©️ [Copyright & Attributions](#toc)
 
 This project incorporates ideas and / or code crafted by the following talented individuals:
 
+* [**devcontainers/spec**](https://github.com/devcontainers/spec)
+	Copyright © Microsoft Corporation
+	MIT Licensed
 
 
+* [**devcontainers/action**](https://github.com/devcontainers/action)
+	Copyright © 2022 Microsoft Corporation
+	MIT Licensed
 
 
-> "We see much further, and reach much higher,<br>
-> only because we stand upon the shoulders of giants"
+* [**devcontainers/ci**](https://github.com/devcontainers/ci)
+	Copyright © Microsoft Corporation
+	MIT Licensed
 
-[`^ Top`](#-table-of-contents)
+
+* [**devcontainers/images**](https://github.com/devcontainers/images)
+	Copyright © Microsoft Corporation. All rights reserved.
+	MIT Licensed
+
+
+> "We see much further, and reach much higher,<br>only because we stand upon the shoulders of giants"
+
+[`^ Top`](#toc)
 
 ## ⚖️ [License](#toc)
 
@@ -230,9 +263,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
-## 📖 [Resources](#-table-of-contents)
+## 📖 [Resources](#toc)
 
 ### Attributed Projects
 
@@ -240,7 +273,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Relevant Resources
 
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
 <h3 align="center">
 
@@ -252,14 +285,14 @@ If you like this repo, please give it a ⭐ (it really does help)
 
 <div align="center">
 
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fragsworks%2Fdevcontainers" target="_blank"><img alt="Visitors" src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fbash-bits%2Fdevcontainers&countColor=%23d20000" /></a>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fragsworks%2Fdevcontainers" target="_blank"><img alt="Visitors" src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fragsworks%2Fdevcontainers&countColor=%23d20000" /></a>
 <a href="https://github.com/ragdata" target="_blank"><img alt="Ragdata" src="https://img.shields.io/badge/-Made_With_☕_By_Ragdata-D20000?style=for-the-badge" /></a>
 
 </div>
 
 [advisory]: https://github.com/ragsworks/devcontainers/security/advisories/new
 [all-contributors]: https://allcontributors.org
-[contributing]: https://github.com/bash-bits/.github/blob/master/.github/CONTRIBUTING.md
+[contributing]: https://github.com/ragsworks/.github/blob/master/.github/CONTRIBUTING.md
 [issues]: https://github.com/ragsworks/devcontainers/issues
 [security]: https://github.com/ragsworks/devcontainers/security/policy
 [sponsors]: https://github.com/sponsors/Ragdata
