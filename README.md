@@ -2,7 +2,7 @@
 
 <img height="196" src="https://raw.githubusercontent.com/Ragdata/media/master/project/ragsworks/logo/ragsworks-256.png" alt="Ragdata" />
 
-[Ragdata's DevContainers v-1.0.0](https://github.com/ragworks/devcontainers/releases/tag/v-1.0.0)
+[Ragdata's DevContainers v-1.0.0](https://github.com/ragsworks/devcontainers/releases/tag/v-1.0.0)
 
 </h1>
 
@@ -12,34 +12,33 @@ DevContainers On-Demand!<br /><br />
 
 <h3 align="center">
 
-<a href="https://github.com/ragworks/devcontainers/issues">Issues</a>
+<a href="https://github.com/ragsworks/devcontainers/issues">Issues</a>
 🔸
-<a href="https://ragworks.github.io/devcontainers">Documentation</a>
+<a href="https://ragsworks.github.io/devcontainers">Documentation</a>
 🔸
-<a href="https://github.com/ragworks/devcontainers/releases">Releases</a>
+<a href="https://github.com/ragsworks/devcontainers/releases">Releases</a>
 </h3>
 
 <div align="center">
 
-![Check Status](https://img.shields.io/github/checks-status/ragworks/devcontainers/master?logo=github&style=for-the-badge)
-![Open Bug Issues](https://img.shields.io/github/issues/ragworks/devcontainers/bug?logo=github&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/ragworks/devcontainers/master?logo=github&style=for-the-badge)
-![Code Size](https://img.shields.io/github/repo-size/ragworks/devcontainers?logo=github&style=for-the-badge)
+![Check Status](https://img.shields.io/github/checks-status/ragsworks/devcontainers/master?logo=github&style=for-the-badge)
+![Open Bug Issues](https://img.shields.io/github/issues/ragsworks/devcontainers/bug?logo=github&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/ragsworks/devcontainers/master?logo=github&style=for-the-badge)
 ![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
 
 #### _Elapsed Project Time_
 
-[![wakatime](https://wakatime.com/badge/user/7e04d9d4-3a44-495e-b622-69fdbafd036c/project/d48d58e9-26bc-47c5-b1b1-0881d5e99748.svg)](https://wakatime.com/badge/user/7e04d9d4-3a44-495e-b622-69fdbafd036c/project/d48d58e9-26bc-47c5-b1b1-0881d5e99748)
+[![wakatime](https://wakatime.com/badge/user/7e04d9d4-3a44-495e-b622-69fdbafd036c/project/d48d58e9-26bc-47c5-b1b1-0881d5e99748.svg?style=for-the-badge)](https://wakatime.com/badge/user/7e04d9d4-3a44-495e-b622-69fdbafd036c/project/d48d58e9-26bc-47c5-b1b1-0881d5e99748)
 
 </div>
 
-<h4 align="center">
+<h3 align="center">
 
 If you like this repo, please give it a ⭐ (it really does help)
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragworks/devcontainers?style=social">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragsworks/devcontainers?style=social">
 
-</h4>
+</h3>
 
 <details>
 <summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
@@ -64,7 +63,9 @@ If you like this repo, please give it a ⭐ (it really does help)
 
 ## ⭐ [Project Overview](#-table-of-contents)
 
-Rather than fork or clone this repo, you should try to follow the installation instructions below in order to build your OWN version of `Devcontainers`.
+> The DevContainers in this repository confirm to the <a href="https://containers.dev/" target="_blank">Official Development Containers Specification</a> (see them on <a href="https://github.com/devcontainers" target="_blank">GitHub</a>)
+
+Rather than fork or clone this repo, you should try to follow the installation instructions below in order to build your OWN version of `DevContainers`.
 
 (If you completely stuff it up, then sure, go ahead and fork me ... fork me hard ...)
 
@@ -84,8 +85,6 @@ If you're contributing code to the project, you'll want 🔴
 [`^ Top`](#toc)
 
 ## 📂 [Installation](#-table-of-contents)
-
-In a strange twist, the installation of this repo happens in a weird order ...
 
 The very first thing you need to do, is install `nvm` - I'm going to assume you're using Windows 11 WSL2 for this:
 
@@ -116,21 +115,21 @@ npm install -g @devcontainers/cli
 
 ### Project Resources
 
-- ✅ [Issues Register](https://github.com/ragworks/devcontainers/issues)
-- ✅ [Project Website](https://ragworks.github.io/devcontainers)
+- ✅ [Issues Register](https://github.com/ragsworks/devcontainers/issues)
+- ✅ [Project Website](https://ragsworks.github.io/devcontainers)
 
 <details><summary><h3>Community Resources</h3></summary>
 
 - [**The RedEyed Community Discord Server**](https://discord.gg/54PkrM7TKq)
 
 
-- [**Community Support Document**](https://github.com/ragworks/devcontainers/blob/master/.github/SUPPORT.md)
-- [**Community Standards**](https://github.com/ragworks/devcontainers/community)
-- [**Community Code of Conduct**](https://github.com/Ragdata/.github/blob/master/.github/CODE_OF_CONDUCT.md)
-- [**Security Policy**](https://github.com/ragworks/devcontainers/security/policy)
-	- [Security Overview](https://github.com/ragworks/devcontainers/security)
-	- [Security Advisories](https://github.com/ragworks/devcontainers/security/advisories)
-	- [Dependabot Alerts](https://github.com/ragworks/devcontainers/security/dependabot)
+- [**Community Support Document**](https://github.com/ragsworks/.github/blob/master/.github/SUPPORT.md)
+- [**Community Standards**](https://github.com/ragsworks/devcontainers/community)
+- [**Community Code of Conduct**](https://github.com/ragsworks/.github/blob/main/.github/CODE_OF_CONDUCT.md)
+- [**Security Policy**](https://github.com/ragsworks/devcontainers/security/policy)
+	- [Security Overview](https://github.com/ragsworks/devcontainers/security)
+	- [Security Advisories](https://github.com/ragsworks/devcontainers/security/advisories)
+	- [Dependabot Alerts](https://github.com/ragsworks/devcontainers/security/dependabot)
 
 </details>
 
@@ -194,7 +193,7 @@ If you discover any issue regarding the security of this project, please disclos
 ## 💎 [Contributors](#toc)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/ragworks/devcontainers?color=ee8449&style=for-the-badge)](CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/github/all-contributors/ragsworks/devcontainers?color=ee8449&style=for-the-badge)](CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 If you'd like to make a contribution, then please see the [**Bash Bits Contributor's Guide**][contributing]
@@ -246,7 +245,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 If you like this repo, please give it a ⭐ (it really does help)
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragworks/devcontainers?style=social">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragsworks/devcontainers?style=social">
 
 </h3>
 
@@ -257,9 +256,9 @@ If you like this repo, please give it a ⭐ (it really does help)
 
 </div>
 
-[advisory]: https://github.com/ragworks/devcontainers/security/advisories/new
+[advisory]: https://github.com/ragsworks/devcontainers/security/advisories/new
 [all-contributors]: https://allcontributors.org
 [contributing]: https://github.com/bash-bits/.github/blob/master/.github/CONTRIBUTING.md
-[issues]: https://github.com/ragworks/devcontainers/issues
-[security]: https://github.com/ragworks/devcontainers/security/policy
+[issues]: https://github.com/ragsworks/devcontainers/issues
+[security]: https://github.com/ragsworks/devcontainers/security/policy
 [sponsors]: https://github.com/sponsors/Ragdata
