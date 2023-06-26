@@ -1,0 +1,31 @@
+ragsworks/devcontainers v-1.0.0
+
+Copyright © 2023 Darren (Ragdata) Poulton
+
+====================================================================
+ATTRIBUTIONS
+====================================================================
+
+This project incorporates ideas and / or code crafted by the following
+talented individuals:
+
+	- devcontainers/spec
+	  Copyright © Microsoft Corporation
+	  MIT Licensed
+
+	- devcontainers/action
+	  Copyright © 2022 Microsoft Corporation
+	  MIT Licensed
+
+	- devcontainers/ci
+	  Copyright © Microsoft Corporation
+	  MIT Licensed
+
+	- devcontainers/images
+	  Copyright © Microsoft Corporation. All rights reserved.
+	  MIT Licensed
+
+====================================================================
+         "We see much further, and reach much higher,
+      only because we stand upon the shoulders of giants"
+====================================================================
