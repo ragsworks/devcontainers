@@ -1,4 +1,0 @@
-{
-    "name": "Alpine",
-    "image": "ghcr.io/ragworks/devcontainers:alpine-${templateOption:imageVariant}"
-}
